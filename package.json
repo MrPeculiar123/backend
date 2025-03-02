@@ -4,7 +4,7 @@
   "description": "Developing youtube style backend ig",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +12,8 @@
   ],
   "author": "Dhruv",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
