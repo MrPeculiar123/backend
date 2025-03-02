@@ -13,7 +13,8 @@
   "author": "Dhruv",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
-    "nodemon": "^3.1.9"
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
   }
 }
